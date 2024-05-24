@@ -5,7 +5,8 @@ import java.util.Random;
 public class TestDemo {
 	
 	
-public Object addPositive(int a, int b) {
+public int addPositive(int a, int b) {
+	
 	if(a>=0 && b>=0) {
 		int sum = a + b;
 		System.out.println(sum);
@@ -16,7 +17,7 @@ public Object addPositive(int a, int b) {
 }
 	
 	
-
+ 
 
 
 int getRandomInt() {
